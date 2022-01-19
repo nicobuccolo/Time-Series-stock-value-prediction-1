@@ -8,7 +8,7 @@ In this model I will create a function that uses the next inputs:
 - Frequency desidered (can be daily or monthly)
 
 This function will do the next steps (explained depply in the code):
-1) Gather data from Yahoo Finance API. Depending on the choosen interval, it will collect different amount of past periods.
+1) Gather data from Yahoo Finance API. Depending on the choosen frequency, it will collect different amount of past periods.
 2) Model the stationary components for months and weekdays, by decomposing the dates in dummies variables. Clean monthly data to have just one observation per month.
 3) Decompose the components of the time series (Trend, Seasonality, Residuals, Cycles) and graph historical data of the stock, gathered in point 1.
 4) Divide the train and the test data depending on the interval.
