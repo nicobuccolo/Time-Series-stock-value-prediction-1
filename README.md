@@ -24,4 +24,4 @@ Next steps:
 - Use this model to make a kind of inversion bot to buy, hold, or sell each day.
 
 
-Special Thanks to my teemmates!
+Special Thanks to my teammates!
