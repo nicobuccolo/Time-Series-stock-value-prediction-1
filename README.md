@@ -4,8 +4,8 @@ The objective of this work is to generate a model that allows predicting the pri
 
 In this model I will create a function that uses the next inputs:
 - stock symbol
-- the day since when to predict prices
-- the interval of prices desiderated between days or months
+- the day to start predictions
+- Frequency desidered (can be daily or monthly)
 
 This function will do the next steps (explained depply in the code):
 1) Gather data from Yahoo Finance API. Depending on the choosen interval, it will collect different amount of past periods.
